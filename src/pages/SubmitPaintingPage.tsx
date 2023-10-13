@@ -1,8 +1,9 @@
 import React from "react";
+import { SubmitPaintingMenu } from "../components/SubmitPaintingMenu";
 export function SubmitPaintingPage(){
     return (
         <>
-        <h1>Submit painting page</h1>
+        <SubmitPaintingMenu></SubmitPaintingMenu>
         </>
     )
 }

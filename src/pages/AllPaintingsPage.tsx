@@ -1,8 +1,9 @@
 import React from "react";
+import { PaintingList } from "../components/PaintingList";
 export function AllPaintingsPage() {
     return (
         <>
-        <h1>All paintings page</h1>
+        <PaintingList></PaintingList>
         </>
     )
 }

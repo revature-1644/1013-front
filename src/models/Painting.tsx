@@ -1,8 +1,9 @@
 import { Author } from "./Author";
 
 export interface Painting {
-    id:number,
+    paintingId?:number,
     imageUrl:string,
     title:string,
-    author:Author
+    yearMade:number,
+    author?:Author
 }
